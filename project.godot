@@ -15,6 +15,19 @@ config/tags=PackedStringArray("jam_game")
 config/features=PackedStringArray("4.6", "GL Compatibility")
 config/icon="res://icon.svg"
 
+[autoload]
+
+Dialogues="*uid://31r1tkw7kueg"
+DialogueManager="*uid://dfpl5f33urly2"
+GameManager="*uid://de0h6lcwdu46a"
+Registry="*uid://dhbidg84niu6"
+SceneChanger="*uid://d1hhnvhi50fl"
+Util="*uid://h61eknuudjrj"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/godot_super-wakatime/plugin.cfg")
+
 [physics]
 
 3d/physics_engine="Jolt Physics"
